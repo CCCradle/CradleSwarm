@@ -2,11 +2,11 @@
 
 以下是一些用户可能会遇到的问题，供参考：
 
-### 1. **LightAgent 与其他 Agent 框架（如 LangChain、LlamaIndex）相比，有什么优势？**
-   - **回答**：LightAgent 的设计理念是极简和高效，不依赖复杂的依赖库（如 LangChain、LlamaIndex），适合快速部署和灵活扩展。同时，LightAgent 内置记忆模块、思维树和多智能体协同功能，能够更好地处理复杂任务。此外，LightAgent 支持多种大模型，并且即将推出流式 API 和 Agent 测评功能，进一步提升其灵活性和实用性。
+### 1. **CradleSwarm 与其他 Agent 框架（如 LangChain、LlamaIndex）相比，有什么优势？**
+   - **回答**：CradleSwarm 基于 LightAgent 核心，设计理念是极简和高效，不依赖复杂的依赖库（如 LangChain、LlamaIndex），适合快速部署和灵活扩展。同时内置记忆模块、思维树和多智能体协同功能，能够更好地处理复杂任务。
 
-### 2. **LightAgent 支持哪些大模型？**
-   - **回答**：LightAgent 兼容多种大模型，包括 OpenAI、智谱 ChatGLM、百川大模型、DeepSeek、Qwen 系列大模型。具体支持的模型包括但不限于：`gpt-3.5-turbo`、`gpt-4`、`gpt-4o`、`gpt-4o-mini`、`DeepSeek-V2.5`、`DeepSeek-V3`、`qwen-plus` 等。用户可以根据需求选择合适的模型进行部署。
+### 2. **CradleSwarm 支持哪些大模型？**
+   - **回答**：CradleSwarm 兼容多种大模型，包括 OpenAI、智谱 ChatGLM、百川大模型、DeepSeek、Qwen 系列大模型。具体支持的模型包括但不限于：`gpt-3.5-turbo`、`gpt-4`、`gpt-4o`、`gpt-4o-mini`、`DeepSeek-V2.5`、`DeepSeek-V3`、`qwen-plus` 等。用户可以根据需求选择合适的模型进行部署。
 
 ### 3. **如何自定义工具并集成到 LightAgent 中？**
    - **回答**：用户可以通过定义一个 Python 函数，并通过 `tools` 参数传入工具。LightAgent 支持自动化工具生成，灵活扩展。工具可以是任意 Python 函数，支持参数类型注解和自动生成工具描述。具体示例可以参考文档中的工具集成部分。

@@ -1,4 +1,4 @@
-### **LightAgent Release Version 0.3.0, Support Anthropic MCP Protocol, Opening a New Era of Interconnected Agent Ecosystems**
+### **CradleSwarm v0.6.0 (Based on LightAgent 0.3.0+), Support Anthropic MCP Protocol, Opening a New Era of Interconnected Agent Ecosystems**
 <div align="center">
   <p>
     English | 
@@ -6,7 +6,7 @@
   </p>
 </div>
 
-The next-generation lightweight Agent framework **LightAgent** has undergone a significant upgrade. **Version 0.3.0 will fully support the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP)**, becoming one of the first domestic open-source Agent frameworks in the world to support this protocol. This upgrade marks LightAgent's formal integration into the standardization process of AI tool ecosystems, providing developers with a more efficient experience in cross-model and cross-platform agent development.
+The next-generation lightweight multi-agent collaboration framework **CradleSwarm** has undergone a significant upgrade. **Fully supports the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP)**. This upgrade marks CradleSwarm's integration into the standardization process of AI tool ecosystems, providing developers with a more efficient experience in cross-model and cross-platform agent development.
 
 ---
 

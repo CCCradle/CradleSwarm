@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
+CradleSwarm - 超轻量级多 Agent 协作框架
 作者: [CCCradle]
 最后更新: 2026-05-03
 """

@@ -1,20 +1,15 @@
 
-![LightAgent Banner](docs/images/lightagent-banner.jpg)
+![CradleSwarm Banner](docs/images/lightagent-banner.jpg)
 <div align="center">
   <p>
     <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
-    <a href="https://github.com/Cradle_Cradle/LightAgent/releases"><img src="https://img.shields.io/github/release/Cradle_Cradle/LightAgent.svg" alt="GitHub release"></a>
-    <a href="https://github.com/Cradle_Cradle/LightAgent/issues"><img src="https://img.shields.io/github/issues/Cradle_Cradle/LightAgent.svg" alt="GitHub issues"></a>
-    <a href="https://github.com/Cradle_Cradle/LightAgent/stargazers"><img src="https://img.shields.io/github/stars/Cradle_Cradle/LightAgent.svg" alt="GitHub stars"></a>
-    <a href="https://github.com/Cradle_Cradle/LightAgent/network"><img src="https://img.shields.io/github/forks/Cradle_Cradle/LightAgent.svg" alt="GitHub forks"></a>
-    <a href="https://github.com/Cradle_Cradle/LightAgent/graphs/contributors"><img src="https://img.shields.io/github/contributors/Cradle_Cradle/LightAgent.svg" alt="GitHub contributors"></a>
-    <a href="https://CCCradle.github.io/LightAgent/"><img src="https://img.shields.io/badge/docs-latest-brightgreen.svg" alt="Docs"></a>
-    <a href="https://pypi.org/project/lightagent/"><img src="https://img.shields.io/pypi/v/lightagent.svg" alt="PyPI"></a>
-    <a href="https://pypi.org/project/lightagent/"><img src="https://img.shields.io/pypi/dm/lightagent.svg" alt="Downloads"></a>
-    <a href="https://pypi.org/project/lightagent/"><img src="https://img.shields.io/pypi/pyversions/lightagent.svg" alt="Python Version"></a>
-    <a href="https://arxiv.org/abs/2509.09292"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B?logo=arxiv&logoColor=white" alt="Code Style"></a> 
+    <a href="https://github.com/Cradle_Cradle/CradleSwarm/releases"><img src="https://img.shields.io/github/release/Cradle_Cradle/CradleSwarm.svg" alt="GitHub release"></a>
+    <a href="https://github.com/Cradle_Cradle/CradleSwarm/issues"><img src="https://img.shields.io/github/issues/Cradle_Cradle/CradleSwarm.svg" alt="GitHub issues"></a>
+    <a href="https://github.com/Cradle_Cradle/CradleSwarm/stargazers"><img src="https://img.shields.io/github/stars/Cradle_Cradle/CradleSwarm.svg" alt="GitHub stars"></a>
+    <a href="https://github.com/Cradle_Cradle/CradleSwarm/network"><img src="https://img.shields.io/github/forks/Cradle_Cradle/CradleSwarm.svg" alt="GitHub forks"></a>
+    <a href="https://github.com/Cradle_Cradle/CradleSwarm/graphs/contributors"><img src="https://img.shields.io/github/contributors/Cradle_Cradle/CradleSwarm.svg" alt="GitHub contributors"></a>
+    <a href="https://CCCradle.github.io/CradleSwarm/"><img src="https://img.shields.io/badge/docs-latest-brightgreen.svg" alt="Docs"></a>
   </p>
-
 </div>
 
 
@@ -33,11 +28,11 @@
 </div>
 
 <div align="center">
-  <h1>LightAgent🚀 超轻量、可“成长”的智能体框架，现已原生支持Skill</h1>
+  <h1>CradleSwarm🐝 超轻量、可“成长”的多 Agent 协作框架</h1>
 </div>
 
 
-🚀 **LightAgent** 
+🚀 **CradleSwarm** 
 不再只是“聊天”，而是真正的“完成任务”。LightAgent 把记忆（`mem0`）、工具（`Tools`）、思维树（`ToT`）和多智能体协作融合进一个极简的包中，而你只需 **一行代码** 就能构建一个**能自我学习、按需加载Skill**的智能体 —— 就像给大模型装上“招式库”与“执行大脑”。
 
 🔥 为什么开发者会爱上它？
@@ -48,7 +43,7 @@
 - **零成本切换底层模型**：OpenAI、智谱 ChatGLM、DeepSeek、阶跃星辰、通义千问…… 想用哪个用哪个。
 - **开箱即用的 API 服务**：标准 OpenAI 流式输出格式，可直接接入主流 Chat 前端（如 NextChat、LobeChat），秒变生产级应用。
 
-🌟 **LightAgent = 轻 + 灵 + 可扩展**  
+🌟 **CradleSwarm = 轻 + 灵 + 可扩展**  
 从个人脚本到企业级 Workflow，它帮你把“聪明的模型”变成“可靠的员工”。  
 **Star 我们，尝试你的第一个 Skill 驱动的 Agent —— 改动几行代码，见证 AI 真正“动手做事”。**
 
@@ -97,7 +92,7 @@
 
 
 ---
-## 🌟 为什么选择 LightAgent？
+## 🌟 为什么选择 CradleSwarm？
 
 - **开源免费** 💖：完全开源，社区驱动，持续更新，欢迎贡献！  
 - **易于上手** 🎯：文档详尽，示例丰富，快速上手，轻松集成到你的项目中。  
@@ -108,7 +103,7 @@
 
 ## 🛠️ 快速开始
 
-### 安装LightAgent最新版本
+### 安装CradleSwarm最新版本
 
 ```bash
 pip install lightagent
@@ -192,7 +187,7 @@ print(response)
 ## 功能详解
 
 ### 1. 可拆卸的全自动记忆模块（`mem0`）
-LightAgent 支持外部扩展自定义记忆模块或使用 `mem0` 作为记忆扩展，[查看什么是mem0？](https://github.com/mem0ai/mem0/)，全自动进行上下文记忆和历史记录管理，无需开发人员手动触发添加记忆和记忆查找。通过记忆模块，Agent 可以在多轮对话中保持上下文一致性。
+CradleSwarm 支持外部扩展自定义记忆模块或使用 `mem0` 作为记忆扩展，[查看什么是mem0？](https://github.com/mem0ai/mem0/)，全自动进行上下文记忆和历史记录管理，无需开发人员手动触发添加记忆和记忆查找。通过记忆模块，Agent 可以在多轮对话中保持上下文一致性。
 
 ```python
 # 启用记忆模块
@@ -786,7 +781,7 @@ CCCradle 在原有 LightAgent 项目基础上开源了新一代智能体框架 L
 
 ## 📄 许可证
 
-LightAgent 采用 [Apache 2.0 许可证](LICENSE)。您可以自由使用、修改和分发本项目，但请遵守许可证条款。
+CradleSwarm 采用 [Apache 2.0 许可证](LICENSE)。您可以自由使用、修改和分发本项目，但请遵守许可证条款。
 
 ---
 
@@ -795,9 +790,9 @@ LightAgent 采用 [Apache 2.0 许可证](LICENSE)。您可以自由使用、修�
 如有任何问题或建议，欢迎随时联系 CCCradle：
 
 - **邮箱**：2273077063@qq.com
-- **GitHub Issues**：[https://github.com/Cradle_Cradle/LightAgent/issues](https://github.com/Cradle_Cradle/LightAgent/issues)  
+- **GitHub Issues**：[https://github.com/Cradle_Cradle/CradleSwarm/issues](https://github.com/Cradle_Cradle/CradleSwarm/issues)  
 
-我们期待您的反馈，一起让 LightAgent 变得更强大！🚀
+我们期待您的反馈，一起让 CradleSwarm 变得更强大！🚀
 
 - **更多工具** 🛠️：持续集成更多实用工具，满足更多场景需求。
 - **更多模型支持** 🔄：持续扩展支持更多大模型，满足更多应用场景。
@@ -805,27 +800,27 @@ LightAgent 采用 [Apache 2.0 许可证](LICENSE)。您可以自由使用、修�
 - **更多文档** 📚：详尽文档，示例丰富，快速上手，轻松集成到你的项目中。
 - **更多社区支持** 👥：活跃的开发者社区，随时为你提供帮助和解答。
 - **更多性能优化** ⚡：持续优化性能，满足高并发场景需求。
-- **更多开源贡献** 🌟：欢迎贡献代码，一起打造更好的 LightAgent！
+- **更多开源贡献** 🌟：欢迎贡献代码，一起打造更好的 CradleSwarm！
 
 ---
 
 <p align="center">
-  <strong>LightAgent - 让智能更轻量，让未来更简单。</strong> 🌈
+  <strong>CradleSwarm - 让多 Agent 协作更轻量、更强大。</strong> 🌈
 </p>
 
  
-**LightAgent** —— 轻量、灵活、强大的主动式 Agent 框架，助您快速构建智能应用！
+**CradleSwarm** —— 基于 LightAgent 核心的轻量、灵活、强大的多 Agent 协作框架，助您快速构建智能应用！
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Cradle_Cradle/LightAgent&type=Date)](https://star-history.com/#Cradle_Cradle/LightAgent&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Cradle_Cradle/CradleSwarm&type=Date)](https://star-history.com/#Cradle_Cradle/CradleSwarm&Date)
 
 ## 论文
 
 ```bibtex
-@misc{CCCradleLightAgent,
+@misc{CCCradleCradleSwarm,
 Author = {CCCradle},
-Title = {LightAgent: Production-level Open-source Agentic AI Framework (由 CCCradle 维护的分支)},
+Title = {CradleSwarm: Multi-Agent Collaboration Framework (由 CCCradle 维护)},
 Year = {2026},
 }
 ```

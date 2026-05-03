@@ -1,6 +1,6 @@
-# Multi-agent failure map for LightAgent (ProblemMap No.13)
+# Multi-agent failure map for CradleSwarm (ProblemMap No.13)
 
-This page is a small troubleshooting lens for multi-agent setups built with LightAgent and **LightSwarm**. It focuses on a specific cluster of problems:
+This page is a small troubleshooting lens for multi-agent setups built with CradleSwarm (based on LightAgent) and **LightSwarm**. It focuses on a specific cluster of problems:
 
 - agents overwriting or polluting each other’s memory  
 - roles drifting over time  

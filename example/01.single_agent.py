@@ -1,3 +1,4 @@
+# CradleSwarm - 超轻量级多 Agent 协作框架
 from LightAgent import LightAgent
 
 # Initialize Agent
