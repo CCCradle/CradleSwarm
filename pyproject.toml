@@ -8,7 +8,7 @@ readme = [
     "README.md",        # English
     "README.zh-CN.md",  # 简体中文
 ]
-repository = "https://github.com/Cradle_Cradle/LightAgent"
+repository = "https://github.com/CCCradle/LightAgent"
 packages = [
     { include = "src" },
 ]

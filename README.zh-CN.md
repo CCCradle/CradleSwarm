@@ -3,11 +3,11 @@
 <div align="center">
   <p>
     <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
-    <a href="https://github.com/Cradle_Cradle/LightAgent/releases"><img src="https://img.shields.io/github/release/Cradle_Cradle/LightAgent.svg" alt="GitHub release"></a>
-    <a href="https://github.com/Cradle_Cradle/LightAgent/issues"><img src="https://img.shields.io/github/issues/Cradle_Cradle/LightAgent.svg" alt="GitHub issues"></a>
-    <a href="https://github.com/Cradle_Cradle/LightAgent/stargazers"><img src="https://img.shields.io/github/stars/Cradle_Cradle/LightAgent.svg" alt="GitHub stars"></a>
-    <a href="https://github.com/Cradle_Cradle/LightAgent/network"><img src="https://img.shields.io/github/forks/Cradle_Cradle/LightAgent.svg" alt="GitHub forks"></a>
-    <a href="https://github.com/Cradle_Cradle/LightAgent/graphs/contributors"><img src="https://img.shields.io/github/contributors/Cradle_Cradle/LightAgent.svg" alt="GitHub contributors"></a>
+    <a href="https://github.com/CCCradle/LightAgent/releases"><img src="https://img.shields.io/github/release/CCCradle/LightAgent.svg" alt="GitHub release"></a>
+    <a href="https://github.com/CCCradle/LightAgent/issues"><img src="https://img.shields.io/github/issues/CCCradle/LightAgent.svg" alt="GitHub issues"></a>
+    <a href="https://github.com/CCCradle/LightAgent/stargazers"><img src="https://img.shields.io/github/stars/CCCradle/LightAgent.svg" alt="GitHub stars"></a>
+    <a href="https://github.com/CCCradle/LightAgent/network"><img src="https://img.shields.io/github/forks/CCCradle/LightAgent.svg" alt="GitHub forks"></a>
+    <a href="https://github.com/CCCradle/LightAgent/graphs/contributors"><img src="https://img.shields.io/github/contributors/CCCradle/LightAgent.svg" alt="GitHub contributors"></a>
     <a href="https://CCCradle.github.io/LightAgent/"><img src="https://img.shields.io/badge/docs-latest-brightgreen.svg" alt="Docs"></a>
     <a href="https://pypi.org/project/lightagent/"><img src="https://img.shields.io/pypi/v/lightagent.svg" alt="PyPI"></a>
     <a href="https://pypi.org/project/lightagent/"><img src="https://img.shields.io/pypi/dm/lightagent.svg" alt="Downloads"></a>
@@ -795,7 +795,7 @@ LightAgent 采用 [Apache 2.0 许可证](LICENSE)。您可以自由使用、修�
 如有任何问题或建议，欢迎随时联系 CCCradle：
 
 - **邮箱**：2273077063@qq.com
-- **GitHub Issues**：[https://github.com/Cradle_Cradle/LightAgent/issues](https://github.com/Cradle_Cradle/LightAgent/issues)  
+- **GitHub Issues**：[https://github.com/CCCradle/LightAgent/issues](https://github.com/CCCradle/LightAgent/issues)  
 
 我们期待您的反馈，一起让 LightAgent 变得更强大！🚀
 
@@ -818,7 +818,7 @@ LightAgent 采用 [Apache 2.0 许可证](LICENSE)。您可以自由使用、修�
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Cradle_Cradle/LightAgent&type=Date)](https://star-history.com/#Cradle_Cradle/LightAgent&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=CCCradle/LightAgent&type=Date)](https://star-history.com/#CCCradle/LightAgent&Date)
 
 ## 论文
 
